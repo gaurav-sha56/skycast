@@ -8,8 +8,7 @@ It provides real-time weather data, 5-day forecasts, and location-based updates 
 ## 🚀 Features
 
 - 🌎 **Real-time Weather Data** – Get accurate temperature, humidity, wind speed, and more.  
-- 📍 **Location-based Forecast** – Automatically detects user location or allows manual search.  
-- 📅 **5-Day Forecast** – Displays weather predictions for the upcoming days.    
+- 📍 **Location-based Forecast** – Automatically detects user location or allows manual search.     
 - 🧭 **Intuitive UI** – Minimalist design with easy navigation.  
 - ⚡ **Fast & Optimized** – Powered by **Next.js**, **Tailwind CSS**, and weather APIs.
 
