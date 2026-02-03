@@ -8,9 +8,17 @@ import WeeklyForecast from "@/components/WeeklyForecast";
 
 
 export default function Home() {
+  async function getWeather() {
+    const res = await fetch("/api/weather");
+    let data = await res.json()
+    console.log(data);
+  }
+
+
+
   return (
     <div className="min-h-screen bg-gradient-to-t from-blue-200 to-zinc-200">
-      <NavBar />
+      <NavBar/>
       {/* main content */}
       <div className="px-8 py-12">
         <div
@@ -55,7 +63,7 @@ export default function Home() {
         </div>
       </div>
 
-
+      <button onClick={getWeather}>click me</button>
     </div>
   );
 }
