@@ -13,7 +13,7 @@ export default function Home() {
 
   useEffect(() => {
     if (!navigator.geolocation) {
-      console.log("Geolocation not supported");
+      alert("Geolocation is not supported by your browser");
       return;
     }
     let lat, lon;
