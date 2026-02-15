@@ -1,7 +1,7 @@
 # 🌤️ SkyCast — Weather Forecast Web App
 
 **SkyCast** is a modern and visually appealing weather forecasting web application built using **Next.js**.  
-It provides real-time weather data, 5-day forecasts, and location-based updates — all in a sleek, responsive interface.
+It provides real-time weather data, and location-based updates — all in a sleek, responsive interface.
 
 ---
 
